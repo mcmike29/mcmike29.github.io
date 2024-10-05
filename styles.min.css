@@ -30,7 +30,7 @@ main {
 }
 .about-image img {
   max-width: 300px;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 /* CSS for navigation bar */
 
