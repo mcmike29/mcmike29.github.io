@@ -27,10 +27,11 @@ main {
   display: block;
   border-radius: 10px;
   justify-content: flex-end;
+  margin: 15px, 15px, 15px, 15px;
 }
 .about-image img {
   max-width: 300px;
-  margin: 15px, 15px, 15px, 15px
+  
   
 }
 /* CSS for navigation bar */
