@@ -18,6 +18,9 @@ main {
   align-items: center;
 }
 
+.page-title {
+  color:darkslategray
+}
 /* CSS for navigation bar */
 
 .navbar {
