@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(182, 209, 244);
+  background-color: rgb(131, 171, 224);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -24,11 +24,15 @@ main {
   font-family: Arial;
 }
 
+.resume {
+  color:rgb(24, 67, 101);
+}
+
 .about {
   display: block;
-  border-radius: 10px;
   justify-content: flex-end;
   padding: 15px, 15px, 15px, 15px;
+  border: 1px dashed #000000;
 }
 .about-image img {
   max-width: 300px;
@@ -78,6 +82,19 @@ form {
   width: 500px;
 }
 /* CSS for page footer */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
 
 .footer {
   display: flex;
