@@ -20,11 +20,17 @@ main {
 
 .page-title {
   color:darkslategray;
+  font-family: Arial;
 }
 
+.about {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+}
 .about-image img {
-  height: 10px;
-  width: 10px;
+  max-width: 300px;
+  border-radius: 3px;
 }
 /* CSS for navigation bar */
 
