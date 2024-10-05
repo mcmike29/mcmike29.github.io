@@ -24,7 +24,7 @@ main {
 }
 
 .about {
-  display: flex;
+  display: block;
   border-radius: 10px;
   justify-content: flex-end;
 }
