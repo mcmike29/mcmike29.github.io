@@ -28,6 +28,10 @@ main {
   color:rgb(24, 67, 101);
 }
 
+.project {
+  display: flex;
+  flex-direction: row;
+}
 .about {
   display: block;
   justify-content: flex-end;
@@ -37,7 +41,6 @@ main {
 .about-image img {
   max-width: 300px;
   justify-content: center;
-  
 }
 /* CSS for navigation bar */
 
@@ -94,6 +97,10 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
 }
 
 .footer {
